@@ -18,3 +18,18 @@
 - Error Handling
 - HTTPS
 - Tree Shaking - remove unused file  
+
+
+
+Two type of Export/Import
+
+
+- Default Export/Import
+
+export default ComponetName;
+import  ComponentName from 'path';
+
+-  Named Export/Import
+
+export const ComponetName;
+import  {ComponentName} from 'path';
